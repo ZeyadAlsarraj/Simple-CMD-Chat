@@ -1,5 +1,5 @@
 # Simple-CMD-Chat
-A Couple versions of a simple cmd based chat app that have users take turns in sending messages to each other, each version is implemented in a different way to achieve the same goal.
+A Couple versions of a simple cmd based chat app using python that have users take turns in sending messages to each other, each version is implemented in a different way to achieve the same goal.
 
 chat versions only work with the same version, on different physical devices, and connected to the same local area network.
 
@@ -23,3 +23,5 @@ example: python chat_v2.py 192.168.222.222 12345
 Port scanning implementation. To run it requires the user to provide the ip address of the other host and the program will create threads to look for the port number of the other device if it is on.
 
 example: python chat_v3.py 192.168.222.222
+
+To find ip addresses of devices you can run the command "ipconfig" (without the qoutes) in cmd.
