@@ -11,12 +11,15 @@ operation is as follows:
 
 ## chat_v1:
 Simplest implementation. To run it requires the user to provide the port number that will be used, the other host's ip address, and the other host's port number.
+
 example: python chat_v1.py 12345 192.168.222.222 54321
 
 ## chat_v2:
 Tracker implementation. To run a Third device called a tracker is needed which records devices that connect to it and sends the information of the devices connected to one device so it can initiate a connection to begin the chat. To run it needs the tracker's ip address and tracker's port number.
+
 example: python chat_v2.py 192.168.222.222 12345
 
 ## chat_v3:
 Port scanning implementation. To run it requires the user to provide the ip address of the other host and the program will create threads to look for the port number of the other device if it is on.
+
 example: python chat_v3.py 192.168.222.222
